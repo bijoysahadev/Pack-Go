@@ -1,0 +1,234 @@
+/* common css starts here */
+*{
+    padding: 0px ;
+    margin: 0px ;
+    box-sizing: border-box !important;
+    text-decoration: none !important;
+    list-style: none !important;
+}
+.nav-common-button a {
+    padding: 16px 35px;
+    display: inline-block;
+    background-color:  rgba(0, 127, 95,1);
+    color: rgba(255, 255, 255,1) !important;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 17px;
+    transition: .5s;
+
+}
+.nav-common-button a:hover {
+    color: greenyellow !important;
+   
+}
+/* common css ends here */
+/* navbar css starts here */
+nav {
+    background-color: rgba(255, 255, 255,1);
+   
+    padding: 42px 0px;
+}
+nav .nav-link {
+    padding: 0px !important;
+    font-family: "Poppins", sans-serif;
+    color: rgba(97, 97, 97,1);
+    font-size: 16px;
+    font-weight: 400;
+    transition: .5s;
+}
+nav .navbar-nav{
+    column-gap: 30px;
+}
+nav .nav-link:hover {
+    color: rgba(0, 127, 95,1);
+}
+
+/* navbar css ends here */
+/* bannner css starts here */
+.banner {
+    background: linear-gradient(rgba(2, 48, 71, 0.5), rgba(2, 48, 71, 0.5)), url(../images/bannner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   padding-top: 300px;
+   padding-bottom: 250px;
+  
+}
+.banner .container h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 65px;
+    font-weight: 600;
+    color: rgba(255, 255, 255,1);
+    width: 573px;
+    line-height: 80px;
+}
+.banner .container .paragarph-1{
+     font-family: "Poppins", sans-serif;
+     font-size: 16px;
+     line-height: 30px;
+     color: rgba(249, 249, 249,1);
+     font-weight: 600;
+     width: 597px;
+     padding-top: 30px;
+}
+.banner .container .nav-common-button {
+    padding: 60px 0px;
+}
+.banner .container .bannner-location {
+   
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly ;
+    background-color: rgba(255, 255, 255,1);
+    padding: 24px 29px;#
+}
+/* loaction one starts here */
+.banner .container .bannner-location .location-one h3 {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 20px;
+    font-weight:700 ;
+    color: rgba(41, 41, 41,1);
+    line-height: 26px;
+}
+.banner .container .bannner-location .location-one p{
+     font-family: "Nunito Sans", sans-serif;
+     font-weight: 400;
+     font-size: 16px;
+     color: rgba(106, 106, 106,1);
+}
+.banner .container .bannner-location .location-one .fa-location-dot {
+    color: rgba(0, 127, 95,1);
+    font-size: 30px;
+}
+.banner .container .bannner-location .location-one .fa-chevron-down {
+    font-size: 16px;
+
+}
+/* location one ends here */
+/* location two starts here */
+.banner .container .bannner-location .location-two h3 {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 20px;
+    font-weight:700 ;
+    color: rgba(41, 41, 41,1);
+    line-height: 26px;
+}
+.banner .container .bannner-location .location-two p{
+     font-family: "Nunito Sans", sans-serif;
+     font-weight: 400;
+     font-size: 16px;
+     color: rgba(106, 106, 106,1);
+}
+.banner .container .bannner-location .location-two .fa-calendar-day {
+    color: rgba(0, 127, 95,1);
+    font-size: 30px;
+}
+.banner .container .bannner-location .location-two .fa-chevron-down {
+    font-size: 16px;
+
+}
+/* location two ends here */
+/* location three starts here */
+.banner .container .bannner-location .location-three h3 {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 20px;
+    font-weight:700 ;
+    color: rgba(41, 41, 41,1);
+    line-height: 26px;
+}
+.banner .container .bannner-location .location-three p{
+     font-family: "Nunito Sans", sans-serif;
+     font-weight: 400;
+     font-size: 16px;
+     color: rgba(106, 106, 106,1);
+}
+.banner .container .bannner-location .location-three .fa-user {
+    color: rgba(0, 127, 95,1);
+    font-size: 30px;
+}
+.banner .container .bannner-location .location-three .fa-chevron-down {
+    font-size: 16px;
+
+}
+/* location three */
+.banner .container .bannner-location .location-four .icon-four {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 127, 95,1);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner .container .bannner-location .location-four .icon-four .fa-magnifying-glass {
+    font-size: 30px;
+    color: white;
+    
+}
+/* bannner css ends here */
+/* user css starts here */
+.user  {
+    padding-top: 150px;
+   
+ 
+}
+.user .row {
+    row-gap: 30px !important;
+}
+.user .container h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight:600 ;
+  font-size: 40px;
+  color: rgba(30, 30, 30,1);
+  text-align: center;
+}
+.user .container .user-paragraph {
+     font-family: "Poppins", sans-serif;
+     line-height: 30px;
+     font-size: 16px;
+     font-weight: 400;
+     color: rgba(97, 97, 97,1);
+     width: 692px;
+     text-align: center;
+     margin: 0 auto;
+     padding-top: 30px;
+} 
+.user .container .card .card-img-top {
+    width: 82px;
+}
+.user .container .card .card-body {
+    padding: 0px !important;
+    
+}
+.user .container .card .card-body .card-title {
+     font-family: "Poppins", sans-serif;
+     font-size: 25px;
+     font-weight: 500;
+     line-height: 24px;
+     color: #1E1E1E;
+     padding-top: 39px;
+     padding-bottom: 20px;
+}
+.user .container .card .card-body .card-text {
+     font-family: "Poppins", sans-serif;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 30px;
+     color: rgba(97, 97, 97,1);
+
+}
+.user .container .card {
+    padding-top: 80px;
+    padding-left: 45px;
+    padding-right: 78px;
+    padding-bottom: 47px;
+    width: 100% !important;
+    border: none !important;
+    box-shadow: 9px 12px 4px rgba(0, 127, 95,0.25);
+    transition: .5s;
+}
+.user .container .card:hover {
+    transform: translateY(-12px);
+}
+/* user css ends here */
