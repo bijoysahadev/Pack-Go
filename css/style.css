@@ -6,6 +6,10 @@
     text-decoration: none !important;
     list-style: none !important;
 }
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+	margin: 0px !important;
+    padding: 0px !important;
+}
 .nav-common-button a {
     padding: 16px 35px;
     display: inline-block;
@@ -28,6 +32,23 @@ nav {
     background-color: rgba(255, 255, 255,1);
    
     padding: 42px 0px;
+}
+nav .nav-item {
+    position: relative;
+}
+nav .nav-item::after {
+    position: absolute;
+    bottom: -2px;
+    left: 0px;
+    background-color:rgba(0, 127, 95,1);
+    content: "";
+    width: 0%;
+    height: 2px;
+    transition: .5s;
+
+}
+nav .nav-item:hover::after {
+    width: 100%;
 }
 nav .nav-link {
     padding: 0px !important;
@@ -53,6 +74,7 @@ nav .nav-link:hover {
     background-size: cover;
    padding-top: 300px;
    padding-bottom: 250px;
+   padding-right: 303px;
   
 }
 .banner .container h1 {
@@ -62,6 +84,7 @@ nav .nav-link:hover {
     color: rgba(255, 255, 255,1);
     width: 573px;
     line-height: 80px;
+    padding-right: 20px;
 }
 .banner .container .paragarph-1{
      font-family: "Poppins", sans-serif;
@@ -75,13 +98,21 @@ nav .nav-link:hover {
 .banner .container .nav-common-button {
     padding: 60px 0px;
 }
+.banner .container .bannner-location-parent{
+ position: relative;
+}
+
 .banner .container .bannner-location {
-   
+    width: 825px;
     display: flex;
     align-items: center;
     justify-content:space-evenly ;
     background-color: rgba(255, 255, 255,1);
-    padding: 24px 29px;#
+    padding: 24px 29px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+   
 }
 /* loaction one starts here */
 .banner .container .bannner-location .location-one h3 {
@@ -100,6 +131,7 @@ nav .nav-link:hover {
 .banner .container .bannner-location .location-one .fa-location-dot {
     color: rgba(0, 127, 95,1);
     font-size: 30px;
+    margin-right: 5px;
 }
 .banner .container .bannner-location .location-one .fa-chevron-down {
     font-size: 16px;
@@ -123,6 +155,7 @@ nav .nav-link:hover {
 .banner .container .bannner-location .location-two .fa-calendar-day {
     color: rgba(0, 127, 95,1);
     font-size: 30px;
+    margin-right: 5px;
 }
 .banner .container .bannner-location .location-two .fa-chevron-down {
     font-size: 16px;
@@ -146,6 +179,7 @@ nav .nav-link:hover {
 .banner .container .bannner-location .location-three .fa-user {
     color: rgba(0, 127, 95,1);
     font-size: 30px;
+    margin-right: 5px;
 }
 .banner .container .bannner-location .location-three .fa-chevron-down {
     font-size: 16px;
@@ -232,3 +266,53 @@ nav .nav-link:hover {
     transform: translateY(-12px);
 }
 /* user css ends here */
+/* destination css starts here */
+.Destination {
+    padding-top: 150px;
+}
+.Destination .container  h2 {
+     font-family: "Poppins", sans-serif;
+     font-size: 40px;
+     font-weight: 600;
+     color: rgba(30, 30, 30,1);
+     text-align: center;
+
+}
+.Destination .container p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(97, 97, 97,1);
+    width: 692px;
+    text-align: center;
+    margin: 0 auto;
+}
+.Destination .container .card {
+    width: 100%;
+   
+    height: 100%;
+    padding: 21px 20px 60px 21px;
+    border: 10px solid red;
+   
+
+}
+.Destination .container .card .card-img-top {
+    border-radius: 14px;
+}
+.Destination .container .card .card-text {
+    width: 325px;
+     font-family: "Poppins", sans-serif;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 30px;
+     color: rgba(97, 97, 97,1);
+     text-align: center;
+}
+.Destination .container .card .card-body .card-icons {
+    display: flex;
+   align-items: center;
+   justify-content: center;
+    column-gap: 10px;
+}
+
+/* destination css ends here */
